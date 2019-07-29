@@ -1,0 +1,114 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: url(image.jpg);
+
+}
+
+body {
+  margin: 0;
+}
+
+#myVid {
+  position: center;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+#nature {
+  overflow: hidden;
+}
+
+
+#title{
+  font-size: 100px;
+  border: 7px inset;
+  -webkit-border-stroke-color: black;
+  text-align: center;
+  padding: 5px;
+  margin: 0px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: white;
+  -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    text-shadow: -1px 1px 2px #000,
+				  1px 1px 2px #000,
+				 1px -1px 0 #000,
+				-1px -1px 0 #000;
+}
+
+
+nav ul {
+  list-style-type: none;
+  font-family: 'Encode Sans Condensed', sans-serif;
+  margin: 0;
+  padding: 25px;
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+  background-color: rgba(254, 254, 254, 0.5) ;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 5%;
+  border-bottom: 4px solid;
+  border-color: gray;
+
+}
+
+#logo{
+  position:relative;
+  top: -23px;
+}
+nav li {
+  float: left;
+  padding-right: 70px;
+
+}
+
+nav li a {
+  display: block;
+  color: black;
+  font-size: 25px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover:not(.active) {
+  background-color: white;
+  height: 100%;
+}
+
+nav .active {
+  background-color: white;
+  font-weight: bold;
+  height:100%;
+}
+
+#secondPage {
+  background-image: url("https://kintegra.io/wp-content/uploads/2018/01/hd-wallpaper-for-blue-gradient-background-with-light-blue-gradient-wallpaper-light-blue-gradient-with-android-wallpaper.jpg");
+  background-size: 100% 100%;
+  padding: 200px;
+  z-index: -1;
+}
+
+#aboutUs {
+  border: 4px inset;
+  border-color: black;
+  background-color: white;
+  text-align: center;
+}
+
+img{
+  image-orientation: from-image;
+}
+
