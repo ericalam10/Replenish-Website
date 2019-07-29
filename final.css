@@ -1,0 +1,15 @@
+h1{color:black; font-size: 40px; ffont-family: 'Encode Sans Condensed', sans-serif; text-shadow: 5px 5px white;
+}
+
+h2{color:white; font-size: 30px; font-family: 'Encode Sans Condensed', sans-serif; text-shadow: 2px 2px black;
+}
+
+h3{color:#6594d6; border: 2px solid; background-color: rgba(254, 254, 254, 0.5);
+  font-size: 25px; font-family: impact, charcoal, sans-serif;
+}
+
+
+body{
+  background-image: url("educate.png");
+  background-size: 100% 100%;
+}
