@@ -1,15 +1,87 @@
-h1{color:black; font-size: 40px; ffont-family: 'Encode Sans Condensed', sans-serif; text-shadow: 5px 5px white;
+html {
+  margin: 0;
+  padding: 0;
 }
 
-h2{color:white; font-size: 30px; font-family: 'Encode Sans Condensed', sans-serif; text-shadow: 2px 2px black;
+h1{color:black;
+  font-size: 40px;
+  font-family: 'Encode Sans Condensed',
+  sans-serif; text-shadow: 5px 5px white;
 }
 
-h3{color:#6594d6; border: 2px solid; background-color: rgba(254, 254, 254, 0.5);
-  font-size: 25px; font-family: impact, charcoal, sans-serif;
+h3{color:black;
+  font-size: 25px;
+  font-family: 'Encode Sans Condensed',
+  sans-serif; text-align: center; text-shadow: 3px 3px black;
 }
-
 
 body{
-  background-image: url("educate.png");
+  background-color: antiquewhite;
   background-size: 100% 100%;
+  margin: 0;
+  padding:0;
+}
+
+img {
+  border: 2px solid #021a40;
+}
+
+#info{
+  font-size: 25px;
+  border: 2px solid;
+  text-align: center;
+  background-color: rgba(254, 254, 254, 0.5);
+}
+
+#body{
+  padding-top: 100px;
+  padding-left: .003%;
+}
+nav ul {
+  list-style-type: none;
+  font-family: 'Encode Sans Condensed', sans-serif;
+  margin: 0;
+  padding: 25px;
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+  background-color: rgba(254, 254, 254, 0.5) ;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 5%;
+  border-bottom: 4px solid;
+  border-color: gray;
+
+}
+
+#logo{
+  position:relative;
+  top: -23px;
+  border: transparent;
+}
+nav li {
+  float: left;
+  padding-right: 70px;
+
+}
+
+nav li a {
+  display: block;
+  color: black;
+  font-size: 25px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover:not(.active) {
+  background-color: white;
+  height: 100%;
+}
+
+nav .active {
+  background-color: white;
+  font-weight: bold;
+  height:100%;
 }
